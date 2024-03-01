@@ -12,13 +12,32 @@
 </head>
 <body>
     <div id="main">
+        <div id="overlay">
+            <i  id="close" class="ri-close-fill"></i>
+            <form  method="post" id="register" action="/register">
+<input type="username" name="username"  placeholder="username"  >
+<input type="email" name="email" placeholder="email"  >
+<input type="password" name="password" placeholder="password" >
+<input  class="submit" type="submit" value="submit" >
+            </form>
+            <!-- <form  method="post" id="login"  action="/login">
+
+                <input type="username" name="username" >
+                <input type="password" name="password" >
+                <input class="submit" type="submit" value="submit"  >
+            </form> -->
+            <h1 id="bottomText">
+                <a href="#">register</a> /
+                <a href="#">login</a>
+            </h1>
+        </div>
       <div id="page1">
         <div id="nav">
             <div id="navinner">
              <a href="index.html">Home</a>
              <a href="cart.html">Cart</a>
              <a href="About.html">About</a>
-            </div>
+            </div> 
          </div>
       </div>
         
